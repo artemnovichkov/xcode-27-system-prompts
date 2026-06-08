@@ -7,22 +7,22 @@
 		<key>name</key>
 		<string>claude</string>
 		<key>checksum</key>
-		<string>8a0341453316bd65caf4eb1a5cd0d1a7bb096b10c336a2441c7daeae67023661e24973fece4449adab2aafa499352b2046203fc9377255cf5b4421ca7f1a9401</string>
+		<string>2a9dca4fed9fb258f141cd12ed9c8fc3828b67886fe8bbb8d807f713c8b3c05d44e8664b8f8c086881309cf189d5240e0fce50bece6bd6f3c3051194e521a4be</string>
 		<key>url</key>
-		<string>https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.113/darwin-arm64/claude</string>
+		<string>https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.154/darwin-arm64/claude</string>
 		<key>version</key>
-		<string>2.1.113</string>
+		<string>2.1.154</string>
 	</dict>
 	<key>codex</key>
 	<dict>
 		<key>name</key>
 		<string>codex</string>
 		<key>checksum</key>
-		<string>5cd4489aa4c4dc8f3bb9f1f38dbda17c6f9932748a3f632afdf5cfe48ca9374efb321cc374397c144c3b678c2924d10b56251bf10d411039f9669e4f0f2fe82f</string>
+		<string>253422f1a5dea6637c2046a8491a57cf82e3f9d5d888b279a24027b73ae4bf52ff0146d6dfce1becdcab0acca5af09064a85bed2dc7bde027fef3a09ff14a20a</string>
 		<key>url</key>
-		<string>https://github.com/openai/codex/releases/download/rust-v0.120.0/codex-aarch64-apple-darwin.tar.gz</string>
+		<string>https://github.com/openai/codex/releases/download/rust-v0.132.0/codex-aarch64-apple-darwin.tar.gz</string>
 		<key>version</key>
-		<string>0.120.0</string>
+		<string>0.132.0</string>
 	</dict>
 </dict>
 </plist>

@@ -40,6 +40,10 @@ Be sure to limit your changes to the things that I ask for. For example, if I as
 - **Comments**: Add descriptive comments for complex logic or non-obvious code
 - **Testing** Use the Testing framework for unit test and XCUIAutomation framework for UI tests (https://developer.apple.com/documentation/testing/)
 
+## Markdown Tables
+
+When generating markdown tables, always use leading and trailing pipes on every row (e.g., `| Name | Age |`, not `Name | Age`).
+
 ## Validating your work
 
 When validating work and experimenting with ideas in Xcode, you have a number of tools at your disposal, each for specific kinds of situations:
@@ -48,8 +52,6 @@ When validating work and experimenting with ideas in Xcode, you have a number of
 - `BuildProject` - Build the project in Xcode. Fully compiles and assembles binaries and resources using Xcode's build system. You can use this to check that work compiles and builds correctly. An extremely powerful tool, but builds can take a long time.
 {% endif %}{% if MCPTool_XcodeRefreshCodeIssuesInFile %}
 - `XcodeRefreshCodeIssuesInFile` - A fast way to get "live" diagnostics from Xcode about many compiler errors you would normally see in Swift files. While you won't learn about build errors in other files or problems with things like linking, you will often be able to see if types are incorrect/unresolvable, if you have hallucinated/mistyped APIs, or if you've forgotten to import something. Use this to quickly verify your work, since it's not allowed to take more than a couple seconds to run.
-{% endif %}{% if MCPTool_ExecuteSnippet %}
-- `ExecuteSnippet` - A fast, lightweight tool that runs new code in the context of a given file, sort of like a special Swift REPL environment. This is often much faster than unit tests or full runs, but code executed here is only temporary. Use this to try out a new idea or see how a piece of code in the project works.
 {% endif %}{% if MCPTool_RunCodeSnippet %}
 - `RunCodeSnippet` - A fast, lightweight tool that runs new code in the context of a given file, sort of like a special Swift REPL environment. This is often much faster than unit tests or full runs, but code executed here is only temporary. Use this to try out a new idea or see how a piece of code in the project works.
 {% endif %}

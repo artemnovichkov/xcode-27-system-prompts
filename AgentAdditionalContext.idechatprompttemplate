@@ -1,4 +1,4 @@
-{% if projectStructure %}Project structure:
+{% if projectStructure %}Project structure{% if xcodeToolNameHintEnabled %} (these are Xcode workspace-relative paths and do not correspond to filesystem paths. Use XcodeRead, XcodeWrite, XcodeGrep, and XcodeGlob to interact with these files){% endif %}:
 {{ projectStructure }}{% endif %}{% if packageDependencies %}
 
 Package dependencies: {{ packageDependencies }}{% endif %}{% if currentFile %}
