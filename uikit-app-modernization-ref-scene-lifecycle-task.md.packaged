@@ -10,7 +10,7 @@ UIKit apps must adopt scene-based lifecycle (`UISceneDelegate`) to function corr
 
 **Cross-reference:** Resolves `UIWindow(frame: UIScreen.main.bounds)` TODOs from [uiscreen-task.md](uiscreen-task.md). After migration, use `UIWindow(windowScene:)` instead.
 
-**Reference:** [TN3187: Migrating to the UIKit scene-based life-cycle](https://developer.apple.com/technotes/tn3187)
+**Reference:** [Transitioning to the UIKit scene-based life cycle](https://developer.apple.com/documentation/UIKit/transitioning-to-the-uikit-scene-based-life-cycle)
 
 ---
 
@@ -211,5 +211,5 @@ After migration, `window` belongs on `SceneDelegate`. Remove `var window: UIWind
 | `UISceneDelegateClassName` | String | Scene delegate class name |
 | `UISceneStoryboardFile` | String | Main storyboard (omit for programmatic) |
 
-- [TN3187: Migrating to the UIKit scene-based life-cycle](https://developer.apple.com/technotes/tn3187)
+- [Transitioning to the UIKit scene-based life cycle](https://developer.apple.com/documentation/UIKit/transitioning-to-the-uikit-scene-based-life-cycle)
 - [Scenes — UIKit App Structure](https://developer.apple.com/documentation/uikit/app_and_environment/scenes)
