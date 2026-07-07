@@ -1,6 +1,6 @@
 # Xcode 27 System Prompts & Documentation
 
-This repository contains system prompts and documentation from Xcode 27 beta 2, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26/27 features and frameworks. You can also find them at `Xcode.app/Contents/PlugIns/IDEIntelligenceChat.framework/Versions/A/Resources`.
+This repository contains system prompts and documentation from Xcode 27 beta 3, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26/27 features and frameworks. You can also find them at `Xcode.app/Contents/PlugIns/IDEIntelligenceChat.framework/Versions/A/Resources`.
 
 ## Repository Structure
 
@@ -58,8 +58,8 @@ Core prompts that power Xcode's AI coding assistant in different modes and conte
 
 ### Agent Skills (new in Xcode 27 beta 1)
 On-demand skills that pair a system prompt with bundled `*-ref-*.md.packaged` reference docs (and helper scripts), loaded only when the task matches:
-- [`audit-xcode-security-settings.idechatprompttemplate`](./audit-xcode-security-settings.idechatprompttemplate) - Audits and progressively enables security build settings: compiler warnings, static analyzer checkers, Enhanced Security, Pointer Authentication, hardware memory tagging, typed allocators, stack zero-init, etc. Ships with `audit-xcode-security-settings-script-filter_build_settings.py`
-- [`c-bounds-safety.idechatprompttemplate`](./c-bounds-safety.idechatprompttemplate) - Guide for adopting, reviewing, and debugging the C `-fbounds-safety` language extension (pointer annotations, build settings, runtime trap debugging)
+- [`audit-xcode-security-settings.idechatprompttemplate`](./audit-xcode-security-settings.idechatprompttemplate) - Audits and progressively enables security build settings: compiler warnings, static analyzer checkers, Enhanced Security, Pointer Authentication, hardware memory tagging, typed allocators, stack zero-init, etc. Reworked in beta 3 into a phased plan-and-approve workflow (editable plan file, `XcodeUpdate` edits, per-target task tracking) with a new `universal-binaries-for-libraries` reference. Ships with `audit-xcode-security-settings-script-filter_build_settings.py`
+- [`adopt-c-bounds-safety.idechatprompttemplate`](./adopt-c-bounds-safety.idechatprompttemplate) - Guide for adopting, reviewing, and debugging the C `-fbounds-safety` language extension (pointer annotations, build settings, runtime trap debugging). Renamed from [`c-bounds-safety`](./c-bounds-safety.idechatprompttemplate) in beta 3 with expanded trigger conditions
 - [`swiftui-specialist.idechatprompttemplate`](./swiftui-specialist.idechatprompttemplate) - SwiftUI best practices and idiomatic patterns: view structure, data flow, environment, modifiers, localization, animations, `ForEach` identity, soft-deprecated APIs
 - [`swiftui-whats-new-27.idechatprompttemplate`](./swiftui-whats-new-27.idechatprompttemplate) - New SwiftUI APIs/behaviors for the 2027 OS releases: `@State` macro migration, `reorderable()`, `AsyncImage` caching, toolbar overflow, item-binding alerts/dialogs, swipe actions, document-based apps, `@ContentBuilder`, deprecations
 - [`uikit-app-modernization.idechatprompttemplate`](./uikit-app-modernization.idechatprompttemplate) - Modernizes UIKit apps for multi-window environments by replacing legacy shared-state APIs (`UIScreen.main`, `interfaceOrientation`, asymmetric safe areas) with scene-aware alternatives
