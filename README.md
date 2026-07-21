@@ -1,6 +1,6 @@
 # Xcode 27 System Prompts & Documentation
 
-This repository contains system prompts and documentation from Xcode 27 beta 3, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26/27 features and frameworks. You can also find them at `Xcode.app/Contents/PlugIns/IDEIntelligenceChat.framework/Versions/A/Resources`.
+This repository contains system prompts and documentation from Xcode 27 beta 4, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26/27 features and frameworks. You can also find them at `Xcode.app/Contents/PlugIns/IDEIntelligenceChat.framework/Versions/A/Resources`.
 
 ## Repository Structure
 
